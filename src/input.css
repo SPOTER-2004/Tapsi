@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/dana-fanum-regular.woff2);
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url(fonts/dana-fanum-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url(fonts/dana-fanum-bold.woff2);
+}
