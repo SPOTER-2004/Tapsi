@@ -1,36 +1,38 @@
 <!doctype html>
 <html dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tapsi</title>
   <link href="output.css" rel="stylesheet">
 </head>
+
 <body class="font-Regular">
-  <header class="border-b-2">
-    <nav class="bg-white container mx-auto py-4 flex justify-between items-center">
-        <div>
-            <img src="images/Tapsi-passenger-logo.png" class="w-28 h-6" alt="">
-        </div>
-
-        <div class="hidden md:block" id="navbar-menu">
-            <ul class="flex items-center flex-row-reverse gap-x-10">
-                <button class="bg-orange-500 px-8 py-3 text-white rounded-xl hidden lg:block">دانلود تپسی</button>
-                <li><a href="">وبلاگ</a></li>
-                <li><a href="">فرصت های شغلی</a></li>
-                <li><a href="">تپسی پک</a></li>
-                <li><a href="">امور سهام</a></li>
-                <li><a href="">پشتیبانی</a></li>
-                <li><a href="">ویدیوها</a></li>
-            </ul>
-        </div>
-
-        <button data-collapse-toggle="navbar-menu" class="block md:hidden">
-            <img src="images/Icons/menu-regular-24.png" alt="">
-        </button>
+  <header class="bg-header shadow-md">
+    <nav class="container mx-auto py-5 flex justify-between items-center">
+      <div>
+        <img src="images/Tapsi-passenger-logo.png" class="w-28" alt="">
+      </div>
+      <div class="dropdown lg:flex lg:items-center gap-x-8">
+        <ul class="dropdown-content hidden bg-white w-full lg:w-auto lg:flex lg:top-0 lg:relative lg:gap-x-5 lg:pr-0 pr-5 absolute right-0 top-16" id="DropDownMenu">
+          <li class="lg:mb-0 mb-7">ویدیوها</li>
+          <li class="lg:mb-0 mb-7">پشتیبانی</li>
+          <li class="lg:mb-0 mb-7">امور سهام</li>
+          <li class="lg:mb-0 mb-7">تپسی پک</li>
+          <li class="lg:mb-0 mb-7">فرصت های شغلی</li>
+          <li class="lg:mb-0 mb-7">وبلاگ</li>
+        </ul>
+        <button class="hidden lg:block bg-orange-600 text-white py-2.5 px-8 rounded-lg border-none">دانلود تپسی</button>
+        <img src="images/Icons/menu-regular-24.png" class="dropbtn block lg:hidden" alt="" onclick="menu()">
+      </div>
     </nav>
   </header>
-  <main></main>
+
   <footer></footer>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>

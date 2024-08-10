@@ -2,18 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: 'Regular';
-    src: url(fonts/dana-fanum-regular.woff2);
+  font-family: "Regular";
+  src: url(fonts/dana-fanum-regular.woff2);
 }
 
 @font-face {
-    font-family: 'Medium';
-    src: url(fonts/dana-fanum-medium.woff2);
+  font-family: "Medium";
+  src: url(fonts/dana-fanum-medium.woff2);
 }
 
 @font-face {
-    font-family: 'Bold';
-    src: url(fonts/dana-fanum-bold.woff2);
+  font-family: "Bold";
+  src: url(fonts/dana-fanum-bold.woff2);
 }
+
+.dropdown-content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* .main-Banner {
+  background-image: url("images/Background-Images/banner-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.request {
+  background-image: linear-gradient(
+    51deg,
+    rgba(23, 26, 60, 0.7) 5%,
+    rgba(23, 26, 60, 0.3) 95%
+  );
+  width: 270px;
+  padding: 16px;
+  margin: 15px 0;
+  border-radius: 20px;
+}
+
+@media screen and (min-width:768px) {
+  .main-Banner {
+    background-image: url("images/Background-Images/banner.webp");
+    background-size: cover;
+    height: 500px;
+  }
+} */
