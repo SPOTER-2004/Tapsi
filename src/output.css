@@ -832,11 +832,11 @@ video {
   src: url(fonts/dana-fanum-bold.woff2);
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.p-container{
+.p-container {
   width: 92% !important;
   margin-left: auto;
   margin-right: auto;
@@ -857,12 +857,12 @@ html{
   background-repeat: no-repeat;
 }
 
-.request{
+.request {
   background-image: linear-gradient(
-      51deg,
-      rgba(23, 26, 60, 0.7) 5%,
-      rgba(23, 26, 60, 0.3) 95%
-    );
+    51deg,
+    rgba(23, 26, 60, 0.7) 5%,
+    rgba(23, 26, 60, 0.3) 95%
+  );
 }
 
 .scrollable-container {
@@ -876,6 +876,11 @@ html{
 
 .active {
   display: block;
+  opacity: 1 !important;
+}
+
+.flex {
+  display: flex;
 }
 
 .content-box {
@@ -889,7 +894,7 @@ html{
   opacity: 1;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .main-Banner {
     background-image: url("images/Background-Images/banner.webp");
     background-size: cover;
@@ -897,7 +902,7 @@ html{
     padding: 50px 0;
   }
 
-  .request{
+  .request {
     border-radius: 20px;
     padding: 40px 25px;
     width: 528px !important;
@@ -905,19 +910,19 @@ html{
   }
 }
 
-@media screen and (min-width:1024px) {
-  #DropDownMenu{
+@media screen and (min-width: 1024px) {
+  #DropDownMenu {
     top: 0 !important;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .request {
     background-image: linear-gradient(
-          51deg,
-          rgba(23, 26, 60, 0.7) 5%,
-          rgba(23, 26, 60, 0.3) 95%
-        );
+      51deg,
+      rgba(23, 26, 60, 0.7) 5%,
+      rgba(23, 26, 60, 0.3) 95%
+    );
     padding: 16px;
     margin: 15px 0;
     border-radius: 20px;
@@ -1033,6 +1038,3 @@ html{
     line-height: 1;
   }
 }
-
-
-
