@@ -21,6 +21,12 @@ html{
   scroll-behavior: smooth;
 }
 
+.p-container{
+  width: 92% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 .dropdown-content {
@@ -48,6 +54,31 @@ html{
 
 }
 
+
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+.content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.content-box {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.content-box:hover {
+  opacity: 1;
+}
 
 
 
@@ -88,5 +119,15 @@ html{
         width: 300px !important;
       }
 }
+
+
+
+
+@media (max-width: 650px) {
+  .scrollable-container {
+    width: 100%;
+  }
+}
+
 
 

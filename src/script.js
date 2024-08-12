@@ -13,3 +13,19 @@ function menu() {
       }
     }
   }
+
+
+
+  const contentBoxes = document.querySelectorAll('.content-box');
+  const contents = document.querySelectorAll('.content');
+
+  contentBoxes.forEach((box, index) => {
+      box.addEventListener('click', () => {
+          contents.forEach(content => content.classList.remove('active'));
+          contentBoxes.forEach(b => b.classList.remove('active'));
+          
+          const contentToShow = document.getElementById(`content${index + 1}`);
+          contentToShow.classList.add('active');
+          box.classList.add('active');
+      });
+  });
