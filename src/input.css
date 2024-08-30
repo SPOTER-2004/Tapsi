@@ -79,6 +79,22 @@ html {
   opacity: 1;
 }
 
+
+.banner-view{
+  background-image: url("images/Background-Images/parallax.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
   .main-Banner {
     background-image: url("images/Background-Images/banner.webp");
