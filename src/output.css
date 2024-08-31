@@ -740,10 +740,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -772,6 +768,11 @@ video {
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .bg-orange-600 {
@@ -812,6 +813,11 @@ video {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-28 {
@@ -862,6 +868,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -949,12 +960,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.p-container {
-  width: 92% !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .dropdown-content {
   display: none;
 }
@@ -1016,6 +1021,22 @@ html {
 
 .img-big {
   height: 40%;
+}
+
+.Representations{
+  background: url("images/Background-Images/IRAN.svg") no-repeat;
+}
+
+.Representations h3{
+  font-size:20px;
+}
+
+.city{
+  width: 13% !important;
+}
+
+.city-last{
+  width: 12.5% !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -1158,26 +1179,6 @@ html {
 
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:h-80 {
-    height: 20rem;
-  }
-
-  .lg\:h-52 {
-    height: 13rem;
-  }
-
-  .lg\:h-60 {
-    height: 15rem;
-  }
-
-  .lg\:h-6 {
-    height: 1.5rem;
-  }
-
-  .lg\:h-64 {
-    height: 16rem;
   }
 
   .lg\:w-3\/6 {

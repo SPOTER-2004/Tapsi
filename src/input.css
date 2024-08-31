@@ -21,12 +21,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.p-container {
-  width: 92% !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .dropdown-content {
   display: none;
 }
@@ -88,6 +82,22 @@ html {
 
 .img-big {
   height: 40%;
+}
+
+.Representations{
+  background: url("images/Background-Images/IRAN.svg") no-repeat;
+}
+
+.Representations h3{
+  font-size:20px;
+}
+
+.city{
+  width: 13% !important;
+}
+
+.city-last{
+  width: 12.5% !important;
 }
 
 @media screen and (min-width: 768px) {
