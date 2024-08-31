@@ -21,6 +21,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.p-container{
+  width: 96% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .dropdown-content {
   display: none;
 }
