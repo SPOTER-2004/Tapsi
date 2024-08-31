@@ -79,21 +79,16 @@ html {
   opacity: 1;
 }
 
-
-.banner-view{
+.banner-view {
   background-image: url("images/Background-Images/parallax.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
-
-
-
-
-
-
+.img-big {
+  height: 40%;
+}
 
 @media screen and (min-width: 768px) {
   .main-Banner {
@@ -114,6 +109,18 @@ html {
 @media screen and (min-width: 1024px) {
   #DropDownMenu {
     top: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .img-big {
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .img-big {
+    height: 60%;
   }
 }
 
